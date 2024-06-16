@@ -92,7 +92,7 @@ def main():
 
         # Turno de las negras (AI)
         if not player_turn:
-            ai_move = minmax.getBestMove(ej.board, 3)  
+            ai_move = minmax.getBestMove(ej.board, 4)  
             if ai_move:
                 ej.make_move(ai_move)
             player_turn = True
